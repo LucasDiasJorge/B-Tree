@@ -158,7 +158,7 @@ int main() {
 	cout << endl;
 
 	int key = 6;
-    (t.search(key) != nullptr) ? cout << "\nPresent" : cout << "\nNot Present";
+    (t.search(key) != nullptr) ? cout << "\nPresent" << endl : cout << "\nNot Present" << endl;
 
     return 0;
 }
